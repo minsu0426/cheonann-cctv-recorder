@@ -23,17 +23,14 @@ OpenCV를 이용하여 천안시 세집매 삼거리의 실시간 공공 교통 
 
 ## 🖼️ 실행 결과 (Screenshots & Video)
 
-**1. 프로그램 실행 화면 (Preview / Record 모드 및 반전 필터)**
+**프로그램 실행 화면 (Preview / Record 모드 및 반전 필터)**
 ## 🖼️ 실행 결과 (Screenshots & Video)
 
 **1. 기본 미리보기 모드 (Preview Mode)**
-![미리보기 화면](<recording image.jpg>)
+![미리보기 화면](<recording image.png>)
 
 **2. 녹화 모드 (Record Mode - 빨간 원 UI 표시)**
-![녹화 중 화면](<recording image2.jpg>)
+![녹화 중 화면](<recording image2.png>)
 
 **3. 필터 적용 및 녹화 모드 (Flip Filter Mode - 좌우 반전)**
-![반전 필터 적용 화면](<flipped image.jpg>)
-
-**2. 녹화된 결과물 확인**
-* 🎥 [output.avi 파일 다운로드 및 확인하기](./output.avi)
+![반전 필터 적용 화면](<flipped image.png>)
