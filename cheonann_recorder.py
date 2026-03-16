@@ -12,7 +12,7 @@ def main():
     fps = video.get(cv.CAP_PROP_FPS)
     if fps == 0 or fps != fps: 
         fps = 60.0
-    wait_msec = int(1 / fps * 10)
+    wait_msec = int(1 / fps * 1000)
 
     width = int(video.get(3))
     height = int(video.get(4))
@@ -21,7 +21,7 @@ def main():
     if width == 0 or height == 0:
         print("비디오 해상도를 불러오지 못했습니다")
         return
-    save_fps = 12.0
+    save_fps = 24.0
     video_writer = cv.VideoWriter('output.avi', cv.VideoWriter_fourcc(*'XVID'), save_fps, (width, height))
 
     is_recording = False
